@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial.</h2>
+    <form action="backend.php">
+        <!-- By using Label we can select box even by clicking on thing next to it like here -->
+        <label for="name"> Name:</label>
+        <!-- Taking input of name -->
+        <div>
+           <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <!-- Taking input of role no -->
+        <div>
+            Role:<input type="text">
+        </div>
+        <br>
+        <!-- Email -->
+        <div>
+            Email: <input type="email" name="my" id="">
+        </div>
+        <br>
+        <!-- For date -->
+        <div>
+            Date: <input type="date" name="myDate" >
+        </div>
+        <br>
+        <!-- For writing something just in numbers -->
+        <div>
+            Bonus: <input type="number" name="myBonus" id="">
+        </div>
+        <br>
+        <!-- For Tick -->
+        <div>
+            Are u eligible: <input type="checkbox" name="myEligiblity" id="">
+        </div>
+        <br>
+        <!-- only one of them applicable -->
+        <div>
+            Gender:
+            Male <input type="radio" name="myGender">
+            Female <input type="radio" name="myGender">
+            Others <input type="radio" name="myGender">
+        </div>
+        <br>
+        <!-- to give area to write -->
+        <div>
+            write about yourself
+            <br>
+            <textarea name="myText" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <!-- To give choice -->
+        <label for="car">Car:</label>
+        <select name="myCar" id="car">
+            <option value="ind">Indica</option>
+            <option value="swf">Swift</option>
+        </select>
+        <br>
+        <br>
+        <!-- For Sumbitting -->
+        <div>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+        </div>
+        <br>
+        
+
+    </form>
+    
+    
+
+
+
+</body>
+</html>
